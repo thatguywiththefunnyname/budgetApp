@@ -10,10 +10,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.project.practice.repositories")
 @EntityScan(basePackages = "com.project.practice.entities")
-public class AustinPracticeApplication {
+public class BudgetApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AustinPracticeApplication.class, args);
+		SpringApplication.run(BudgetApplication.class, args);
 	}
 
 }

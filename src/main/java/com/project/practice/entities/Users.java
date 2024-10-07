@@ -1,5 +1,6 @@
 package com.project.practice.entities;
 
+import javax.persistence.Entity;
 import javax.persistence.*;
 import java.util.Objects;
 
